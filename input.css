@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url('../img/bg-tablet-pattern1.svg');
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position: 90% -25%;
-}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
