@@ -708,9 +708,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
 }
 
-.bg-brightRed {
+.bg-blue-400 {
   --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .bg-veryDarkBlue {
@@ -718,14 +718,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
 }
 
-.bg-blue-300 {
+.bg-brightRed {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
 }
 
 .p-6 {
