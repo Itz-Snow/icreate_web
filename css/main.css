@@ -718,11 +718,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
 }
 
-.bg-brightRed {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -832,11 +827,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-brightRed {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
-}
-
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -876,20 +866,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-fill-color: transparent;
 }
 
-#cta {
-  background-image: url('../img/bg-simplify-section-desktop.svg');
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 576px) {
-  body {
-    background-position: 50px -50px;
-    background-size: 500px;
-  }
-
-  #cta {
-    background-image: url('../img/bg-simplify-section-mobile.svg');
-  }
+body{
+  scroll-behavior: smooth;
 }
 
 /* Hamburger Menu */
@@ -945,19 +923,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-brightRed:hover {
+.hover\:text-blue-200:hover {
   --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
+  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
