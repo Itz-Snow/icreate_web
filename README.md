@@ -1,10 +1,10 @@
-# Tailwind Manage Landing Page
+# Tailwind iCREDIT Landing Page
 
-This is the project from my 2022 Tailwind Crash Course on YouTube.
+This is the project from ME : Akiosi Abdulafeez Gbenga.
 
-![Alt text](/img/screen.png?raw=true)
+![Alt text](/img/heroShot.PNG)
 
-# Usage
+## Usage
 
 Install dependencies (Tailwind)
 
@@ -23,5 +23,6 @@ To build once run...
 ```
 npm run build
 ```
-
-You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations
+ ## Hosted link 
+ 
+ 
