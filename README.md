@@ -2,7 +2,9 @@
 
 This is the project from ME : Akiosi Abdulafeez Gbenga.
 
-![Alt text](/img/heroShot.PNG)
+## Snapshot
+
+![iCredit Landing Page](/img/heroShot.PNG)
 
 ## Usage
 
@@ -24,5 +26,6 @@ To build once run...
 npm run build
 ```
  ## Hosted link 
- 
+ The iCredit web app is hosted on [https://icredit.onrender.com/](https://icredit.onrender.com/). Click [here](https://icredit.onrender.com/) to access it directly.
+
  
